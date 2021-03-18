@@ -1,5 +1,5 @@
 // クイズ
-import { quiz } from "sample.js";
+import { quiz } from "./sample.js";
 // 正答数による結果
 const title = [
 	"残念！勉強してもう一度！",
