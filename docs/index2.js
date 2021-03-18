@@ -52,8 +52,8 @@ function random(min, max) {
 // クイズ問題をランダムで選択
 let question = [];
 const random2 = () => {
-	min = 0;
-	max = quizLength - 1;
+	const min = 0;
+	const max = quizLength - 1;
 
 	let randomNumber = random(min, max);
 	let result = question.indexOf(randomNumber);
