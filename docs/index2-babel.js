@@ -1,6 +1,6 @@
 "use strict";
 
-var _sample = require("./sample-after.js");
+var _sample = require("./sample-babel.js");
 
 // クイズ
 // 正答数による結果
