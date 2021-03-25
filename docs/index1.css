@@ -1,0 +1,141 @@
+.hr1 {
+	/* display: inline-block; */
+	background-color: #ff0000;
+	margin: 0;
+	height: 6vw;
+}
+.head {
+	color: red;
+	font-size: 6vw;
+	background-color: yellow;
+	/* max-height: 10vw; */
+	max-width: 50vw;
+	margin-top: 5vw;
+	margin-left: auto;
+	margin-bottom: 5vw;
+	margin-right: auto;
+	/* margin: 100px  auto; */
+	text-align: center;
+}
+
+#intro {
+	font-size: 2.5vw;
+	/* text-align: center; */
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	max-width: 70vw;
+	overflow-wrap: normal;
+}
+
+.title {
+	font-size: 2.5vw;
+	margin: 3vw auto 3vw auto;
+	width: 45vw;
+}
+
+#button {
+	font-size: 3vw;
+}
+
+.hr2 {
+	height: 6vw;
+	background-color: #ff0000;
+	margin: 15vw auto 0 auto;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+	.hr1 {
+		/* display: inline-block; */
+		background-color: #ff0000;
+		margin: 0;
+		height: 10vw;
+	}
+	.head {
+		color: red;
+		font-size: 10vw;
+		background-color: yellow;
+		/* max-height: 10vw; */
+		max-width: 80vw;
+		margin-top: 10vw;
+		margin-left: auto;
+		margin-bottom: 10vw;
+		margin-right: auto;
+		/* margin: 100px  auto; */
+		text-align: center;
+	}
+
+	#intro {
+		font-size: 4vw;
+		/* text-align: center; */
+		margin-left: auto;
+		margin-bottom: auto;
+		margin-right: auto;
+		max-width: 80vw;
+		overflow-wrap: normal;
+	}
+	.title {
+		font-size: 3.5vw;
+		margin: 8vw auto 5vw auto;
+		width: 65vw;
+	}
+
+	#button {
+		font-size: 5vw;
+	}
+
+	.hr2 {
+		height: 10vw;
+		background-color: #ff0000;
+		margin: 20vw auto 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+	.hr1 {
+		/* display: inline-block; */
+		background-color: #ff0000;
+		margin: 0;
+		height: 15vw;
+	}
+	.head {
+		color: red;
+		font-size: 11vw;
+		background-color: yellow;
+		/* max-height: 10vw; */
+		max-width: 90vw;
+		margin-top: 10vw;
+		margin-left: auto;
+		margin-bottom: 10vw;
+		margin-right: auto;
+		/* margin: 100px  auto; */
+		text-align: center;
+	}
+
+	#intro {
+		font-size: 5vw;
+		/* text-align: center; */
+		margin-left: auto;
+		margin-bottom: auto;
+		margin-right: auto;
+		max-width: 80vw;
+		overflow-wrap: normal;
+	}
+	.title {
+		font-size: 4.2vw;
+		margin: 10vw auto 15vw auto;
+		width: 80vw;
+	}
+
+	#button {
+		font-size: 5vw;
+	}
+
+	.hr2 {
+		height: 15vw;
+		background-color: #ff0000;
+		margin: 20vw auto 0 auto;
+	}
+}
