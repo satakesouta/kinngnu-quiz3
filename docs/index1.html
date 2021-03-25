@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link id="link" rel="stylesheet" href="./index1.css" />
+		<title>キングヌークイズ</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link rel="shortcut icon" href="編集.ico" />
+	</head>
+	<body>
+		<div class="first">
+			<div class="hr1"></div>
+			<div class="head">King Gnuクイズ</div>
+			<div id="intro">
+				キングヌーに関する問題を３問用意したよ！全問正解目指せ！<br />このクイズでキングヌーのことをより知ってもらえたら嬉しいです！
+			</div>
+			<div class="title">
+				<div style="color: gold; font-weight: bold">
+					３問正解：キングヌーマスター
+				</div>
+				<div style="color: silver; font-weight: bold">
+					２問正解：キングヌーエリート
+				</div>
+				<div style="color: #c47022; font-weight: bold">
+					１問正解：キングヌー見習い
+				</div>
+				<div style="color: black; font-weight: bold">
+					全問不正解：残念！勉強してもう一度！
+				</div>
+			</div>
+			<div class="d-flex justify-content-center">
+				<button id="button" type="button" class="btn btn-danger w-auto">
+					スタート！
+				</button>
+			</div>
+			<div class="hr2"></div>
+		</div>
+
+		<div class="second">
+			<header></header>
+			<div class="js-correctAnswers"></div>
+			<div id="js-question"></div>
+			<div id="js-items">
+				<div class="d-flex flex-row justify-content-center">
+					<button type="button" name="js-btn" class="btn btn-primary w-auto">
+						Primary
+					</button>
+				</div>
+				<div class="d-flex flex-row justify-content-center">
+					<button type="button" name="js-btn" class="btn btn-success w-auto">
+						Success
+					</button>
+				</div>
+				<div class="d-flex flex-row justify-content-center">
+					<button type="button" name="js-btn" class="btn btn-danger w-auto">
+						Danger
+					</button>
+				</div>
+				<div class="d-flex flex-row justify-content-center">
+					<button type="button" name="js-btn" class="btn btn-dark w-auto">
+						Warning
+					</button>
+				</div>
+			</div>
+			<div class="hr"></div>
+		</div>
+
+		<div class="third">
+			<header>結果発表</header>
+			<div class="js-correctAnswers"></div>
+			<div class="title"></div>
+			<div class="explanation"></div>
+			<button id="reChallenge" class="btn btn-warning w-auto">
+				再チャレンジ！
+			</button>
+
+			<div class="hr"></div>
+		</div>
+		<script type="module" src="./index-babel-webpack3.js"></script>
+		<!-- <script type="module" src="./index3.js"></script> -->
+	</body>
+</html>
